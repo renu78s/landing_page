@@ -1,0 +1,30 @@
+.signleExpert_container {
+  width: 230px;
+  display: inline-block;
+  margin-right: 20px;
+  padding-inline: 50px;
+  padding-top: 20px;
+}
+.expert_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.expert_content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.expert_content h5 {
+  font-weight: bold;
+}
+.profile1_para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile1_para p {
+  line-height: 10px;
+  font-weight: 500;
+}

@@ -1,0 +1,60 @@
+.scrollContainer {
+  position: absolute;
+  width: 85vw;
+  height: 45vh;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.leftScroll {
+  width: 60px;
+  height: 90px;
+  transform: translate(-80px, 0, 0);
+  position: absolute;
+  z-index: 1000;
+  top: 65px;
+  left: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+  background-color: transparent;
+  border: transparent;
+}
+.rightScroll {
+  transform: translateZ(0);
+  width: 40px;
+  height: 80px;
+  position: absolute;
+  z-index: 60;
+  top: 65px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  cursor: pointer;
+  background-color: transparent;
+  border: transparent;
+}
+.leftArrow_icon {
+  color: #2a527c;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.rightArrow_icon {
+  color: #2a527c;
+  width: 30px;
+  height: 30px;
+}
+.leftArrow_icon:hover {
+  color: #3ad1d9;
+}
+.rightArrow_icon:hover {
+  color: #3ad1d9;
+}

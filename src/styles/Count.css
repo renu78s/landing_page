@@ -1,0 +1,20 @@
+.count_number {
+  font-weight: bolder;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 20px;
+}
+.count_number span {
+  color: rgb(29, 110, 118);
+  font-weight: bolder;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+.count_title {
+  text-transform: capitalize;
+  color: rgb(155, 152, 152);
+  font-weight: 600;
+  font-size: 14px;
+}
